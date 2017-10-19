@@ -1,0 +1,83 @@
+body{
+  position:relative;
+  background:url("https://hiking2christ.files.wordpress.com/2012/09/single-tree.jpg") no-repeat center fixed;
+  background-size:cover;
+  padding-top:75px;
+  padding-bottom:20px;
+  font-family: Trebuchet MS, Verdana;
+}
+
+#mainapp-container{
+  color:#faf3eb;
+  background-color:transparent;
+  padding-bottom:50px;
+}
+
+#app-title{
+  font-size:4.5em;
+  margin-bottom:0;
+}
+
+hr{
+  margin-top:0;
+  width:80%;
+}
+
+#getWeatherButton{
+  height:30px;
+  font-size:1.3em;
+  margin: 0 auto;
+  background-color:transparent;
+  border:2px solid white;
+  border-radius:3px;
+  text-align:center;
+  display:block;
+  font-weight:bolder;
+}
+
+#getWeatherButton:hover{
+  -webkit-transition: all 1500ms ease;
+  -ms-transition: all 1500ms ease;
+  transition: all 1500ms ease;
+  box-shadow: inset 0 100px 0 0 #64451b;
+}
+
+#temperature{
+  font-size:3.5em;
+}
+
+#weather-icon-wrapper{
+  margin-bottom:20px;
+  display:none;
+  height:77px;
+}
+
+#weather-icon{
+  margin: 20px auto;
+  width:75px;
+  border:0;
+}
+
+#map-wrapper{
+  display:none;
+  height:352px;
+}
+
+#footer-container{
+  position:absolute;
+  height:50px;
+  width:100%;
+  color:white;
+}
+
+@media screen and (max-width:768px){
+  body{
+    padding-top:10px;
+  }
+  #app-title{
+    font-size:3em;
+  }
+  #temperature{
+    font-size:2.5em;
+  }
+}
