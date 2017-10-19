@@ -1,5 +1,5 @@
 # currentWeatherApp
-Exported from https://codepen.io/itzthanh/full/BwVywq/
+Imported from https://codepen.io/itzthanh/full/BwVywq/
 
 Created a simple weather app that gets current user location and outputs the current temperature along with a map of the user's location.
 
